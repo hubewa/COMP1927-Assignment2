@@ -17,14 +17,14 @@ LocationID bruteForce(DracView currentView, Map g){
        
         numLocations = &k;
        
-        int i;
-        int j;
+        int i = 0;
+        int j = 0;
         int l = 0;
        
-        int tempDistance;
-        int compareDistance;
+        int tempDistance = 0;
+        int compareDistance = 0;
         LocationID nextMove = -1;
-        int isLegalMove;
+        int isLegalMove = 1;
        
         //Required for brute force
         int path[20];
