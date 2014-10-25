@@ -26,6 +26,7 @@ Location bruteForce(DracView currentView, Map g){
 	
 	//Finds where Dracula is
 	Location dracula = whereIs(currentView, PLAYER_DRACULA);
+	Location hunter1 = whereIs(currentView, PLAYER_LORD_GODALMING);
 	
 	//Sets all of the values in connections to -1
 	for (i = 0; i <= 50; i++) connections[i] = -1;
@@ -56,6 +57,7 @@ Location bruteForce(DracView currentView, Map g){
 			i++;
 		}
 	}
+	
 	return nextMove;
 	
 }
